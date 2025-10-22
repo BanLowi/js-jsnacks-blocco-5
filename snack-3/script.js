@@ -4,13 +4,19 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 const numbersPlusOne = [];
 
+/*
+
 numbers.forEach((num) => {
     numbersPlusOne.push(++num);
 })
-
 console.log(numbersPlusOne);
+*/
 
 for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i];
-    numbersPlusOne.push(number);
+    numbersPlusOne.push(number + 1);
 }
+
+
+const numbersPlusOneMap = numbers.map((num) => ++num)
+console.log(numbersPlusOneMap);
