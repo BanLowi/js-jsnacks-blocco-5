@@ -10,4 +10,6 @@ nums.forEach((num) => {
 })
 console.log(evenNumbers);
 
+const numsEven = nums.filter((num) => num % 2 === 0)
+console.log(numsEven);
 
