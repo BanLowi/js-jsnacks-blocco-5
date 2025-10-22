@@ -24,3 +24,5 @@ for (let i = 0; i < posts.length; i++) {
 
 console.log(postsAuthor);
 
+const authors = posts.map((post) => post.author)
+console.log(authors);
