@@ -9,3 +9,8 @@ numbers.forEach((num) => {
 })
 
 console.log(numbersPlusOne);
+
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i];
+    numbersPlusOne.push(number);
+}
